@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+body, html, .big-container {
+    min-height: 100%;
+}
+.row, .col, .container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+hr{
+    width: 90%;
+}
+/* MENU */
+.navbar-col{
+    padding: 0px;
+    margin: 0px;
+}
+h1,h2, h3, h4, h5 {
+    font-family: 'Caveat', cursive;
+    color: #373737;
+}
+
+
+/* NAVBAR-LOGO */
+.row div {
+    border: 1px dashed violet;
+}
+
+
+/* B_MENU */
+.link{
+    background-color: lightgrey;
+    
+}
+.link a{
+    color: #373737;
+}
+
+@media only screen and (max-width:768px){
+    #prev picture, .logo, .logo-text, a{
+        display: none;
+    }
+    .navbar{
+        height: 45px;
+    }
+    .cart{
+        background-color: rgb(185, 156, 160);
+    }
+    .gallery{
+        background-color: lightgrey;
+
+    }
+    #b-menu{
+        display: none;
+    }
+    
+    
+}
+@media only screen and (min-width:769px){
+    .cart{
+        display: none;
+    }
+    .gallery{
+        display: none;
+    }
+
+    .main{
+        display: none;
+    }
+    
+
+    
+}
+/* PRODUCT */
+.hover-product{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hover-product:hover .add-to-cart{
+    display: inline;
+    text-decoration: none;
+}
+.product{
+    display: block;
+    border: 5px dashed violet;
+    
+}
+.product:hover{
+    background-color: white;
+    box-shadow: 0px 5px 8px 0px rgb(0, 0, 0.16);
+    text-decoration: none;
+}
+.product img{
+    width: 263px;
+    height: 279px;
+
+}
+.product-text{
+    height: 85px;
+    padding: 10px;
+}
+.product-text p{
+    text-decoration: none;
+    color: #373733;
+    font-size: 15px;
+    
+}
+.product-text span{
+    color: red;
+    margin-left: 150px;
+    font-size: 15px;
+}
+button{
+    background-color: #777;
+    width: 240px;
+    position: absolute;
+    bottom: 15px;
+    border: none;
+    color: #ffffff;
+    font-size: smaller;
+}
