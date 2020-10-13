@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="rus">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible"content="IE=edge">
@@ -8,14 +8,13 @@
     <link rel="stylesheet" href="package/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="styles/new.css">
     <script src="https://kit.fontawesome.com/a4a9a5e4f1.js" crossorigin="anonymous"></script>
-    <title>Template</title>
+    <title>Главная</title>
 </head>
 <body>
     <div class="big-container">
         <div class="container-fluid">
-            <div class="row">
-                
-                    <nav class="col col-md-12 navbar navbar-expand-lg navbar-light bg-light">
+            <div class="row">    
+                <nav class="col col-md-12 navbar navbar-expand-lg navbar-light">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
@@ -26,25 +25,25 @@
                               <a class="nav-link" href="#">ГЛАВНАЯ<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">УСЛУГИ</a>
+                              <a class="nav-link" href="services.html">УСЛУГИ</a>
                             </li>
                             <li class="nav-item gallery">
-                              <a class="nav-link" href="#">КАТАЛОГ ФОТОПЕЧАТИ</a>
+                              <a class="nav-link" href="product.html">КАТАЛОГ ФОТОПЕЧАТИ</a>
                             </li>
                             <li class="nav-item gallery">
-                              <a class="nav-link" href="#">ГАЛЕРЕЯ</a>
+                              <a class="nav-link" href="product.html">ГАЛЕРЕЯ</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">ДОСТАВКА И ОПЛАТА</a>
+                              <a class="nav-link" href="pay.html">ДОСТАВКА И ОПЛАТА</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">КОНТАКТЫ</a>
+                              <a class="nav-link" href="contacts.html">КОНТАКТЫ</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">О ФАБРИКЕ</a>
+                              <a class="nav-link" href="about.html">О ФАБРИКЕ</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">СОТРУДНИЧЕСТВО</a>
+                              <a class="nav-link" href="cooperation.html">СОТРУДНИЧЕСТВО</a>
                             </li>
                             <li class="cart nav-item">
                                 <a class="nav-link" href="#">
@@ -56,55 +55,60 @@
 
                         
                         </div>
-                    </nav>
-                    
-                
+                </nav>    
             </div>
-            <div class="container-fluid" id="prev">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col col-md-6">
-                                <picture class="d-flex justify-content-end">
-                                    <img src="img/venera-logo.png" alt="logo" class="logo img-fluid w-75">  
-                                </picture>
+        </div>    
+        <!-- LOGO -->
+        <div class="container-fluid" id="prev">
+            <div class="row">
+                <div class="col col-md-6">
+                    <div class="row">
+                        <div class="col col-md-12">
+                            <picture class="d-flex align-items-center">
+                                <img src="img/venera-logo.png" alt="logo" class="logo img-fluid w-25">
+                                <h2 class="logo-text">ВЕНЕРА<br>Фабрика натяжных потолков</h2>  
+                            </picture>
                                 
-                            </div>
-                            <div class="col col-md-6 d-flex align-items-center">
-                                <h2 class="logo-text">ВЕНЕРА<br>Фабрика натяжных потолков</h2>
-                            </div>
                         </div>
+                        
                     </div>
-                    <div class="col col-md-6 d-flex align-items-center justify-content-end">
-                        <div class="row">
-                            <div class="col col-md-12 d-flex justify-content-center">
-                                <picture class="row d-flex justify-content-end">
-                                    <a href="#" class="text-center"><img src="img/images.svg" class="img-fluid w-25" alt="cart"></i>0</a> 
-                                </picture>
+                </div>
+                <div class="col col-md-6 d-flex align-items-center justify-content-end">
+                    <div class="row">
+                        <div class="col col-md-12 d-flex justify-content-center">
+                            <picture class="row d-flex justify-content-end">
+                                <a href="#">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bag" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z"/>
+                                    </svg>
+                                    <strong>0</strong>
+                                    
+                                </a> 
+                            </picture>
                                 
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        
         <!-- b-menu -->
         <hr>
         <div class="container" id="b-menu">
             <div class="row">
-                <div class="col col-md-4 link">
-                    <a href="index-html" class="d-flex justify-content-center py-2">ГЛАВНАЯ</a>
+                <div class="col col-md-4 link active">
+                    <a href="newindex.html" class="d-flex justify-content-center py-2">ГЛАВНАЯ</a>
                 </div>
                 <div class="col col-md-4 link">
-                    <a href="#" class="d-flex justify-content-center py-2">КАТАЛОГ ФОТОПЕЧАТИ</a>
+                    <a href="product.html" class="d-flex justify-content-center py-2">КАТАЛОГ ФОТОПЕЧАТИ</a>
                 </div>
                 <div class="col col-md-4 link">
-                    <a href="#" class="d-flex justify-content-center py-2">ГАЛЕРЕЯ</a>
+                    <a href="product.html" class="d-flex justify-content-center py-2">ГАЛЕРЕЯ</a>
                 </div>
             </div>
         </div>
         <!-- CAROUSEL -->
-        <div class="container">
+        <div class="container" id="carl">
             <div class="row">
                 <div class="col col-md-12">
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -140,7 +144,7 @@
             </div>
         </div>
         <!-- PRODUCTS -->
-        <div class="container">
+        <div class="container products">
             <div class="row">
                 <div class="col">
                     <h3 class="text-center">ПОПУЛЯРНОЕ</h3>
@@ -148,7 +152,7 @@
             </div>
             <div class="container products">
                 <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6 d-flex justify-content-center">
+                    <div class="col col-xl-3 col-lg-4 col-md-6 d-flex justify-content-center">
                         <div class="hover-product">
                             <a href="product-page.html" class="product">
                                 <img src="img/grey-back.png" alt="imgage">
@@ -159,7 +163,7 @@
                             </a>                    
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 d-flex justify-content-center">
+                    <div class="col col-xl-3 col-lg-4 col-md-6 d-flex justify-content-center">
                         <div class="hover-product">
                             <a href="product-page.html" class="product">
                                 <img src="img/grey-back.png" alt="imgage">
@@ -170,7 +174,7 @@
                             </a>                    
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 d-flex justify-content-center">
+                    <div class="col col-xl-3 col-lg-4 col-md-6 d-flex justify-content-center">
                         <div class="hover-product">
                             <a href="product-page.html" class="product">
                                 <img src="img/grey-back.png" alt="imgage">
@@ -181,7 +185,7 @@
                             </a>                    
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 d-flex justify-content-center">
+                    <div class="col col-xl-3 col-lg-4 col-md-6 d-flex justify-content-center">
                         <div class="hover-product">
                             <a href="product-page.html" class="product">
                                 <img src="img/grey-back.png" alt="imgage">
@@ -198,9 +202,20 @@
             </div>
         </div>
     </div>
+    <hr>
     <footer class="container-fluid">
         <div class="row">
-            
+            <div class="col col-md-6 ">
+                <small>&copy; 2020-2021 Fotovenera. Все права защищены.</small>
+               
+
+            </div>
+            <div class="col col-md-6 d-flex justify-content-end">
+                <a href="#" class="socials px-2"><i class="fab fa-vk"></i></a>
+                <a href="#" class="socials px-2"><i class="fas fa-at"></i></a>
+                <a href="#" class="socials px-2"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="socials px-2"><i class="fab fa-instagram"></i></a>
+            </div>
         </div>
 
     </footer>
